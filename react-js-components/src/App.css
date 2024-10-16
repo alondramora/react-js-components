@@ -15,6 +15,23 @@
   gap: 20px
 }
 
+.wrapper button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 9px;
+  border: solid 2px #570773;
+
+}
+
+.wrapper button:hover {
+  background-color: white;
+  color: #570773;
+  border: solid 2px #570773;
+}
+
 .accordian {
   width: 500px;
 }
@@ -23,7 +40,7 @@
   background: #570773;
   margin-bottom: 10px;
   padding: 10px 20px;
-
+  border-radius: 9px;
 }
 
 .title {
