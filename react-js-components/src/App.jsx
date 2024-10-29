@@ -1,16 +1,12 @@
 import './App.css'
-import Accordian from './components/accordian'
+import Accordian from './components/accordian/index.jsx'
 
 function App() {
   
 
   return (
     <>
-      <div className="accordian-wrapper-on-appjsx">
-       {/* Accordian */}
-       <Accordian/>
-      </div>
-      
+      <Accordian/>
     </>
   )
 }
